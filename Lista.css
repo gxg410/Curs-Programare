@@ -1,0 +1,49 @@
+div {
+  margin: 10px;
+  padding: 10px;
+}
+
+.foaie {
+  background: lightgrey;
+}
+
+div.lista > input {
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+div.magazin > input[type="text"] {
+  font-size: 200%;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+input:not([type="checkbox"]):not([value="adauga"]), select{
+  background-color: transparent;
+  border: 0;
+}
+
+div.produs > input[type="text"] {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+div.produs > input[type="number"] {
+  width: 35px;
+}
+
+input[type="button"] {
+  color:black;
+  font-weight: bold;
+  background-color: green;
+}
+
+input[type="text"]:focus {
+  color: green;
+}
+
+.form-select {
+  width: 70px;
+  display: inline-block;
+  background: 50% darkgrey;
+}
